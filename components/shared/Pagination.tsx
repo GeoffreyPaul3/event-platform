@@ -52,4 +52,3 @@ const Pagination = ({ page, totalPages, urlParamName }: PaginationProps) => {
 };
 
 export default Pagination;
- 
