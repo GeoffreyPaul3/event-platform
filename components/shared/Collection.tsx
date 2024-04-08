@@ -45,10 +45,7 @@ const Collection = ({
           </ul>
 
           {totalPages > 1 && (
-            <Pagination
-              
-              
-            />
+            <Pagination urlParamName={urlParamName} page={page} totalPages={totalPages} />
           )}
         </div>
       ) : (
