@@ -27,4 +27,4 @@ export const getAllCategories = async () => {
   } catch (error) {
     handleError(error)
   }
-}
+} 
